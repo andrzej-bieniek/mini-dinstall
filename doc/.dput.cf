@@ -1,0 +1,7 @@
+[local]
+fqdn = space-ghost.verbum.private
+incoming = /var/lib/mini-dinstall/archive/mini-dinstall/incoming
+method = local
+run_dinstall = 0
+post_upload_command = mini-dinstall -r
+

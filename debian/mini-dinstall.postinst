@@ -13,6 +13,7 @@ case "$1" in
             echo "Creating $USER_DESCR ..."
             adduser --quiet \
                 --system \
+                --no-create-home \
                 --disabled-login \
                 --disabled-password \
                 --group \
